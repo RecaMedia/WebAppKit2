@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+input, select, button, textarea {
+	outline: none;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+body {
+	font-family: $font;
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
